@@ -97,4 +97,4 @@ class SchlageBatteryLifeSensor(SchlageSensor):
 
     @property
     def state_class(self):
-        return measurement
+        return "measurement"
