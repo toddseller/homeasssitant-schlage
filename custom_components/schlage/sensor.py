@@ -94,3 +94,7 @@ class SchlageBatteryLifeSensor(SchlageSensor):
     @property
     def icon(self):
         return BATTERY_ICON
+
+    @property
+    def state_class(self):
+        return measurement
